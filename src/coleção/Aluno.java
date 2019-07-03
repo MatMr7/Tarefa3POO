@@ -1,0 +1,15 @@
+package coleção;
+
+public class Aluno implements selecionavel {
+	
+	private String nome;
+	
+	public Aluno(String nome) {
+		this.nome = nome;
+	}
+	
+	public String getNome() {
+		return this.nome;
+	}
+
+}
